@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 </head>
-<title>Suchi's Github page</title>
+<title>Ankita's Github page</title>
 <body bgcolor='#FFFFFF' leftmargin='0' topmargin='0' rightmargin='0' marginwidth='0' marginheight='0'>
 Repository for Test
 </body>
