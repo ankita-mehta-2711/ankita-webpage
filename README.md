@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html lang="en-US">
-  <head>
-    <script src="https://assets.adobedtm.com/e72b4113c11a/a3d74e4a94b2/launch-85c4602f1b56-development.min.js" async></script>
+  <head>    
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
+    <script src="https://assets.adobedtm.com/e72b4113c11a/a3d74e4a94b2/launch-85c4602f1b56-development.min.js" async></script>
 <!-- Begin Jekyll SEO tag v2.8.0 -->
 <title>ankita-webpage | This repository will be used for storing Personal Webpages</title>
 <meta name="generator" content="Jekyll v3.10.0" />
