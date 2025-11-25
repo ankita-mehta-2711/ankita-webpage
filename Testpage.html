@@ -131,7 +131,55 @@ function myFunction() {
   <button class="btn">Button</button>
 </div>
 
+  <div class="banner">
+  <p>Welcome to our website! Special offer: 10% off all products this week.</p>
+  <button class="banner-close">X</button>
+</div>
+/* style.css or your main CSS file */
+.banner {
+  background-color: #f0f0f0;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  position: sticky; /* or fixed, depending on desired behavior */
+  top: 0;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
 
+.banner p {
+  margin: 0;
+  font-size: 16px;
+}
+
+.banner-close {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #666;
+}
+
+.banner-close:hover {
+  color: #000;
+}
+  // script.js
+document.addEventListener('DOMContentLoaded', function() {
+  const banner = document.querySelector('.banner');
+  const closeButton = document.querySelector('.banner-close');
+
+  if (closeButton && banner) {
+    closeButton.addEventListener('click', function() {
+      banner.style.display = 'none';
+      // Optionally, set a cookie or local storage item to keep it dismissed
+    });
+  }
+});
+  <script src="script.js"></script>
   
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
